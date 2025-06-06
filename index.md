@@ -1,4 +1,6 @@
 ---
+layout: default
+title: Sean's Blog
 urgent: false
 important: true
 complete: true
