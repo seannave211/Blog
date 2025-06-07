@@ -5,9 +5,11 @@ main > ul {
 }
 
 ol > li {
-    list-style: decimal inside;
+    list-style: decimal;
+    padding: 1rem;
 }
 
 ul > li {
-    list-style: disc inside;
+    list-style: disc;
+    padding: 1rem;
 }
