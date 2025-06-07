@@ -13,8 +13,10 @@ extra_css: assets/css/catalogue.css
     <ul>
         {% for post in site.posts %}
         <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <span>{{ post.date }}</span>
+            <div>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <span>{{ post.date }}</span>
+            </div>
         </li>
         {% endfor %}
     </ul>
