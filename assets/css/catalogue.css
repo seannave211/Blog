@@ -6,7 +6,7 @@ blockquote {
 }
 
 #catalogue {
-    margin: 0 var(--margin-lr);
+    margin: 2rem var(--margin-lr);
 }
 
 #catalogue > li {
