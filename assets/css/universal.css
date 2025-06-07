@@ -36,8 +36,7 @@ code {
     padding: 3px;
 }
 
-.section,
-section {
+.section {
     min-height: 100dvh;
     min-height: 100vh;
     scroll-snap-align: start;
