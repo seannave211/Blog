@@ -1,19 +1,19 @@
-ul {
+blockquote {
+    background: rgba(100, 100, 250, 0.2);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+#catalogue {
     width: 80%;
 }
 
-li {
+#catalogue > li {
     list-style: none;
 }
 
-li > div {
+#catalogue > li > div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-blockquote {
-    background: rgba(100, 100, 250, 0.5);
-    border-radius: 5px;
-    padding: 1rem;
 }
