@@ -13,7 +13,7 @@ extra_css: assets/css/catalogue.css
         order: Technology, Philosophy, Homelab, Game Development.
     </blockquote>
     <ul id="catalogue">
-        {% for post in site.posts %}
+        {% for post in site.posts reversed %}
         <li>
             <div>
                 <a href="{{ post.url }}">{{ post.title }}</a>
