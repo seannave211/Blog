@@ -4,12 +4,41 @@ main > ul {
     margin-bottom: 1rem;
 }
 
-ol > li {
-    list-style: decimal;
-    padding: 1rem;
+ul li {
+    position: relative;
+    list-style: none;
+    padding-left: 1.2em; /* space for bullet */
+    text-indent: 0; /* prevent text shifting */
 }
 
-ul > li {
-    list-style: disc;
-    padding: 1rem;
+ul li::before {
+    content: "•"; /* custom bullet */
+    position: absolute;
+    left: 0;
+    top: 0.2em; /* vertically align bullet */
+    font-size: 1em;
+    line-height: 1;
+}
+
+ol {
+    counter-reset: list-counter; /* reset counter */
+    padding-left: 1.5em; /* space for numbers */
+}
+
+ol li {
+    position: relative;
+    list-style: none; /* remove default numbers */
+    padding-left: 1.5em; /* space for number */
+    counter-increment: list-counter;
+}
+
+ol li::before {
+    content: counter(list-counter) ".";
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    font-weight: bold;
+    width: 1.2em; /* optional: fixes spacing alignment */
+    text-align: right;
+    display: inline-block;
 }
