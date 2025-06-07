@@ -13,7 +13,8 @@
         {% endif %}
     </head>
     <body>
-        {% include header.html %} {{ page.date }}
+        {% include header.html %}
+        <p>Publish: {{ page.date | date: "%Y-%m-%d" }}</p>
         <main>{{ content }}</main>
         {% include footer.html %}
     </body>
