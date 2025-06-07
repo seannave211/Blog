@@ -18,7 +18,9 @@
     <body>
         {% include header.html %}
         <p>Publish: {{ page.date | date: "%Y-%m-%d" }}</p>
-        <main class="section">{{ content }}</main>
+        <main class="section" style="justify-content: start">
+            {{ content }}
+        </main>
         {% include footer.html %}
     </body>
 </html>
