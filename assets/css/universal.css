@@ -39,7 +39,13 @@ code {
     padding: 3px;
 }
 
-.section {
+blockquote {
+    background: rgba(100, 100, 250, 0.5);
+    border-radius: 5px;
+}
+
+.section,
+section {
     min-height: 100dvh;
     min-height: 100vh;
     scroll-snap-align: start;
