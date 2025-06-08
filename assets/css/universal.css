@@ -1,6 +1,6 @@
 :root {
     --font-family: Verdana, sans-serif;
-    --margin-lr: min(15rem, 20%);
+    --margin-lr: clamp(1rem, 20%, 15rem);
 }
 
 * {
@@ -22,12 +22,6 @@ body {
 
 header {
     padding: 10px 0px;
-}
-
-main {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
 }
 
 code {
