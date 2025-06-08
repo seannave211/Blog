@@ -18,6 +18,13 @@
     <body>
         {% include header.html %}
         <p>Publish: {{ page.date | date: "%Y-%m-%d" }}</p>
+        {% if page.tags %}
+        <p>
+            Tags: {% for tag in page.tags %} #{{ tag }}{% unless forloop.last %}
+            &middot; {% endunless %} {% endfor %}
+        </p>
+        {% endif %}
+
         <main>{{ content }}</main>
         {% include footer.html %}
     </body>
