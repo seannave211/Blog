@@ -6,7 +6,7 @@ published: true
 layout: post
 title: A Mini-Essay on Mini-Essays
 date: 2025-06-06
-permalink: MINIESSAY
+permalink: MINI-ESSAY
 tags:
   - mini-essay
   - writing
@@ -14,7 +14,7 @@ tags:
 
 # A Mini-Essay on Mini-Essays
 
-I used to be a staunch hater of writing, writing of any kind.
+> I used to be a staunch hater of writing, writing of any kind.
 
 Writing was a form of education that I never appreciated, even at a very young age. The idea of sharing any personal information and exposing my unfiltered thoughts on a piece of paper just didn't provide me the security and comfort that I needed to feel. That is, not until I actually got to writing academically on the topics that A) never had to be read by anyone beside the professor, and B) I didn't need to see it again after a grade was announced. The subject that really sparked my interest in writing was philosophy (beyond the 101, beyond the rigorous treatment of logic). I love to think about philosophical positions based on human nature, morals and ethics, and professional ethics. Sometimes I would find myself writing for a class to fill the x-page quota and later exceeding even the maximum length the professors would even want to read and grade. Thus, a wannabe writer was made.
 
