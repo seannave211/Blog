@@ -4,7 +4,8 @@
 
 main > p:not(:last-of-type),
 main > ol,
-main > ul {
+main > ul,
+main > blockquote {
     margin-bottom: 1rem;
 }
 
