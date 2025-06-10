@@ -1,3 +1,7 @@
+:root {
+    --color-primary: #3466d3;
+}
+
 main > p:not(:last-of-type),
 main > ol,
 main > ul {
@@ -41,4 +45,9 @@ ol li::before {
     width: 1.2em; /* optional: fixes spacing alignment */
     text-align: right;
     display: inline-block;
+}
+
+blockquote {
+    border-left: 3px solid var(--color-primary);
+    padding-left: 1rem;
 }
