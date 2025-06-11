@@ -7,7 +7,7 @@ blockquote {
 }
 
 blockquote > ul {
-    padding: inherit;
+    padding-inline: 1rem;
 }
 
 #catalogue {
