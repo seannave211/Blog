@@ -10,10 +10,6 @@ blockquote > ul {
     padding-inline: 1rem;
 }
 
-#catalogue {
-    margin: 1rem;
-}
-
 #catalogue > li {
     list-style: none;
 }
