@@ -7,11 +7,19 @@ extra_css: assets/css/catalogue.css
 <section>
     <h1>Sean's Personal Blog</h1>
     <blockquote>
-        Here is a collection of mini essays that I call a blog. The plan is to
-        write anything and everything that I think is pretty interesting to me.
-        Here is a list of things that I find interesting, in no particular
-        order: Technology, Philosophy, Homelab, Game Development.
+        <p>
+            Here is a collection of mini essays that I call a blog. The plan is
+            to write anything and everything that I think is interesting to me.
+        </p>
+        <p>Topics I find interesting, in no particular order:</p>
+        <ul>
+            <li>Technology</li>
+            <li>Philosophy</li>
+            <li>Homelab</li>
+            <li>Game Development</li>
+        </ul>
     </blockquote>
+
     <ul id="catalogue">
         {% for post in site.posts reversed %}
         <li>
