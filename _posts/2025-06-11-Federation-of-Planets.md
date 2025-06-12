@@ -32,7 +32,10 @@ The United Federation of Planets, an interstellar governing entity with a space 
 These are some of the major benefits that I can think of for achieving a global governing entity. I understand there are potentially just as many or perhaps even more negative aspects to this. However, I am constrained by the limitations of the mini-essay and in the future[^4], I will write about the detriments as well.
 
 ## References
+
 [A Mini-Essay on Mini-Essays]({% post_url 2025-06-06-Mini-Essay %})
+
+## Footnotes
 
 [^1]: I seem to remember there is a proper terminology for this, but at the moment of writing this, that term evades my conscious effort to recall it.
 

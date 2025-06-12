@@ -52,3 +52,7 @@ blockquote {
     border-left: 3px solid var(--color-primary);
     padding-left: 1rem;
 }
+
+.footnotes > ol {
+    padding-left: 0;
+}
